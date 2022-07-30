@@ -13,13 +13,14 @@ namespace AdminRoles.Controllers
             return View();
         }
 
+        //[Authorize] //ACCESS BY ALL
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
 
             return View();
         }
-
+        //[Authorize(Roles = "Super Admin")] //FOR SUPER USERS ONLY
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
