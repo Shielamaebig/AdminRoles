@@ -1,0 +1,18 @@
+﻿@model ICollection<AdminRoles.Models.DepartmentType>
+    @{
+        ViewBag.Title = "Index";
+    }
+        <h2>Index</h2>
+        <table class="table table-bordered table-hover">
+            <tr>
+                <th>Department Type</th>
+            </tr>
+            @foreach (var departmentType in Model)
+            {
+                <tr>
+                    <th>@departmentType.Name</th>
+                </tr>
+            }
+        </table>
+
+
