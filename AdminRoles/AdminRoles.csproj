@@ -169,7 +169,6 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
-    <Compile Include="Controllers\CascadeDropdownController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\RoleController.cs" />
@@ -192,9 +191,12 @@
     <Compile Include="Migrations\202207301610110_EditNAmeDepartment.designer.cs">
       <DependentUpon>202207301610110_EditNAmeDepartment.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202207301834594_RemoveDeptAndDiv.cs" />
+    <Compile Include="Migrations\202207301834594_RemoveDeptAndDiv.designer.cs">
+      <DependentUpon>202207301834594_RemoveDeptAndDiv.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\DepartmentType.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -259,9 +261,6 @@
     <Content Include="Views\Role\Index.cshtml" />
     <Content Include="Views\Role\Create.cshtml" />
     <Content Include="Views\Account\RegisterRole.cshtml" />
-    <Content Include="Views\CascadeDropdown\Index.cshtml" />
-    <Content Include="Views\CascadeDropdown\CascadeList.cshtml" />
-    <Content Include="Views\CascadeDropdown\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -291,6 +290,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202207301610110_EditNAmeDepartment.resx">
       <DependentUpon>202207301610110_EditNAmeDepartment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202207301834594_RemoveDeptAndDiv.resx">
+      <DependentUpon>202207301834594_RemoveDeptAndDiv.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -20,8 +20,6 @@ namespace AdminRoles.Models
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
-        public DbSet<DepartmentType> DepartmentTypes { get; set; }
-        public DbSet<DivisionType> DivisionTypes { get; set; }
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {
