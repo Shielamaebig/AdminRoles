@@ -179,6 +179,22 @@
     <Compile Include="Migrations\202207301102392_InitialModel.designer.cs">
       <DependentUpon>202207301102392_InitialModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202207301514187_AddDepartmentTypeModel.cs" />
+    <Compile Include="Migrations\202207301514187_AddDepartmentTypeModel.designer.cs">
+      <DependentUpon>202207301514187_AddDepartmentTypeModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202207301545399_AddDivisionType.cs" />
+    <Compile Include="Migrations\202207301545399_AddDivisionType.designer.cs">
+      <DependentUpon>202207301545399_AddDivisionType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202207301610110_EditNAmeDepartment.cs" />
+    <Compile Include="Migrations\202207301610110_EditNAmeDepartment.designer.cs">
+      <DependentUpon>202207301610110_EditNAmeDepartment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202207301834594_RemoveDeptAndDiv.cs" />
+    <Compile Include="Migrations\202207301834594_RemoveDeptAndDiv.designer.cs">
+      <DependentUpon>202207301834594_RemoveDeptAndDiv.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -265,6 +281,18 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202207301102392_InitialModel.resx">
       <DependentUpon>202207301102392_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202207301514187_AddDepartmentTypeModel.resx">
+      <DependentUpon>202207301514187_AddDepartmentTypeModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202207301545399_AddDivisionType.resx">
+      <DependentUpon>202207301545399_AddDivisionType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202207301610110_EditNAmeDepartment.resx">
+      <DependentUpon>202207301610110_EditNAmeDepartment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202207301834594_RemoveDeptAndDiv.resx">
+      <DependentUpon>202207301834594_RemoveDeptAndDiv.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

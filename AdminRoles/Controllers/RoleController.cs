@@ -20,7 +20,7 @@ namespace AdminRoles.Controllers
 
 
         // GET: Role 
-        [Authorize]
+   
         public ActionResult Index()
         {
             var Roles = _context.Roles.ToList();
